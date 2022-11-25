@@ -1,0 +1,25 @@
+
+
+.jumbotron {
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto)
+}
+.CR7{
+    width: 100%;
+
+}
+
+.suscribete {
+    background-color: blue;
+    border-radius: 20px;
+}
+.intro{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
