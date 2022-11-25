@@ -9,17 +9,49 @@
 }
 .CR7{
     width: 100%;
+    transition: all 1s linear;
+    overflow: hidden;
+}
 
+.CR7:hover{
+    transform: scale(1.05);
+    transition: all 1s linear;
+    overflow: hidden;
 }
 
 .suscribete {
-    background-color: blue;
+    background-color: #f2f2f2;
     border-radius: 20px;
+    width: 500px;
 }
 .intro{
     background-color: black;
+    color: red;
     display: flex;
     flex-direction: column;
     text-align: center;
+    align-items: center;
+    justify-content: center;
     
 }
+
+.CR72 {
+    font-size: 50px;
+    font-style: bold;
+}
+
+.formulario button{
+    background-color: aqua;
+    border-radius: 1cm;
+    width: 100px;
+    transition: all 1s linear;
+}
+
+.formulario button:hover{
+    background-color: orange;
+    transform: scale(1.2);
+    transition: 1s;
+    transition-delay: 1s;
+    
+}
+
